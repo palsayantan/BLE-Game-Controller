@@ -194,7 +194,7 @@ void loop() {
       potValue3 += potValues3[i];
     }
     potValue3 = potValue3 / numberOfPotSamples;
-    int adjustedValue3 = map(potValue3, 0, 4095, 127, -127);
+    int adjustedValue3 = map(potValue3, 0, 4095, 0, 255);
 
 
     int potValues4[numberOfPotSamples];
@@ -207,7 +207,7 @@ void loop() {
       potValue4 += potValues4[i];
     }
     potValue4 = potValue4 / numberOfPotSamples;
-    int adjustedValue4 = map(potValue4, 0, 4095, 127, -127);
+    int adjustedValue4 = map(potValue4, 0, 4095, 0, 255);
     /*
       Serial.print(adjustedValue);
       Serial.print(" || ");
