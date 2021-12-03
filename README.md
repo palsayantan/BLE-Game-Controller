@@ -26,6 +26,6 @@ This is a DIY handheld gamepad, made using ESP32 microcontroller and controlled 
 ### Read the full [Documentation](https://hackaday.io/project/176673-esp32-ble-gamepad) on Hackaday.
 
 ## Credits
-Credits to @lemmingDev as this code is based on his [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) library 
+Credits to [@lemmingDev](https://github.com/lemmingDev) as this code is based on his [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) library 
 
 
